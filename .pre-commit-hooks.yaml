@@ -1,0 +1,6 @@
+- id: commit-message
+  name: Check git commit message
+  description: Validates if the git commit message contains a JIRA ticket number
+  entry: script.sh
+  stages: [commit-msg]
+  language: script
